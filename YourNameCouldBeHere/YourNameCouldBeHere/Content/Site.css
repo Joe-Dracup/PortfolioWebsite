@@ -1,0 +1,128 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eaeaea;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*LAYOUT*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: black;
+    left: 0;
+}
+
+
+.bg-light {
+    background-color: #005cb2 !important;
+    height: 70px;
+}
+
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .navbar-nav > a {
+        color: white;
+        float: none;
+        margin: 10px;
+        border-color: white;
+        border-bottom-style: solid;
+        border-width: 1px;
+    }
+
+        .navbar-nav > a:hover {
+            color: grey;
+            border-width: 2px;
+        }
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: grey;
+}
+
+/*.navbar.navbar-expand-lg.navbar-light.bg-light {
+    box-shadow: 0px 5px 2.5px #ddd;
+}*/
+
+
+/*INDEX*/
+
+.jumbotron-fluid {
+    /*background-color: #6ab7ff;*/
+    background-color: #005cb2 !important;
+    box-shadow: 0px 5px 2.5px grey;
+    color: white;
+}
+
+.index-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+
+.index-flex-item {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 5px grey;
+    margin:10px;
+    width: 450px;
+    height: 200px;
+}
+
+
+/*ABOUT*/
+
+.img-about {
+    width: 25%;
+    height: auto;   
+}
+
+.title {
+    margin: 10px;
+}
+
+.text {
+    width: 65%;
+    float: left;
+    margin: 10px;
+}
+
+.about-container {
+    background-color: white;
+    box-shadow: 10px 10px 5px grey;
+    padding: 20px;
+}
